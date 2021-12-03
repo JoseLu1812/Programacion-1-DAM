@@ -61,17 +61,6 @@ public class Aleatorio {
 		return result;
 	}
 	
-	public void resultadoPrim (boolean decimo) {
-		if(decimo) {
-			System.out.println("Tu suerte es increible. ¡¡HAS GANADO LA PRIMITVA!!");
-			System.out.println("Creo que acabas de dejar el trabajo.\n");
-		}else {
-			System.out.println("Que la suerte te acompañe, pero para otra vez," 
-					+ "porque para esta vez no ha podido ser\n");
-		}
-		
-	}
-	
 			
 }	
 		

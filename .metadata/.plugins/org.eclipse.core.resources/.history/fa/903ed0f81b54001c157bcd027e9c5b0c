@@ -153,10 +153,17 @@ public class Principal {
 					
 					
 				case 4:
-					System.out.println("¿Que número desea entre el 1 y el 49?");
+					System.out.println("¿Que número desea?");
 					num = Leer.datoInt();
 					
-					if(prim.comprobarPrim(num);
+					if(num == prim.primitiva()) {
+						System.out.println("Tu suerte es increible. ¡¡HAS GANADO LA PRIMITVA!!");
+						System.out.println("Creo que acabas de dejar el trabajo.\n");
+					}else {
+						System.out.println("Que la suerte te acompañe, pero para otra vez, "
+								+ "porque para esta vez no ha podido ser.");
+					}
+					break;
 					
 			
 					

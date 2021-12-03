@@ -8,7 +8,7 @@ public class Principal {
 		// TODO Auto-generated method stub
 		
 		
-		int valor, numT, numM, num, max, min, numPartidos;
+		int valor, num, numT, numM, numPartidos;
 		Aleatorio quin = new Aleatorio();
 		Aleatorio parNon = new Aleatorio();
 		Aleatorio chin = new Aleatorio();
@@ -153,13 +153,14 @@ public class Principal {
 					
 					
 				case 4:
-					min=1;
-					max=49;
-					System.out.println("");
-					num=Leer.datoInt();
-					prim.resultadoPrim(prim.comprobarPrim(prim.aleatorio(min, max),num));
+					System.out.println("¿Que número desea entre el 1 y el 49?");
+					num = Leer.datoInt();
+					
+					if(prim.comprobarPrim(num);
+					
 			
-									
+					
+					
 					
 				default:
 					System.out.println("Si no quieres jugar me lo dices desde el prsincipio, pero no me mientas :_(");

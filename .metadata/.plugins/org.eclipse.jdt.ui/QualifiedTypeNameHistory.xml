@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ejemplo2.Leer"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="ejercicio3.Circulo"/>
     <fullyQualifiedTypeName name="ejercicio5.Aleatorio"/>
     <fullyQualifiedTypeName name="ejercicio7.Oficina"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
+    <fullyQualifiedTypeName name="staticos.Cohete"/>
     <fullyQualifiedTypeName name="lectura.Leer"/>
 </qualifiedTypeNameHistroy>

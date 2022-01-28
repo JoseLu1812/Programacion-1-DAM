@@ -22,8 +22,8 @@ public class Portatil extends Ordenador{
 		return super.toString() + "Portatil [descuento=" + descuento + "]";
 	}
 	
-	public double calcularPrecioVenta() {
-		return super.calcularPrecioVenta() - (super.getPrecioBase() - descuento/100);
+	public double calcularPrecioVenta(int descuento) {
+		return super.getPrecioBase() - (super.getPrecioBase() * descuento/100);
 	}
 	
 	

@@ -6,7 +6,9 @@
     <fullyQualifiedTypeName name="ejercicio5.Aleatorio"/>
     <fullyQualifiedTypeName name="ejercicio7.Oficina"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="utilidades.Leer"/>
     <fullyQualifiedTypeName name="staticos.Cohete"/>
     <fullyQualifiedTypeName name="lectura.Leer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ejercicio4.Cliente"/>
+    <fullyQualifiedTypeName name="utilidades.Leer"/>
 </qualifiedTypeNameHistroy>

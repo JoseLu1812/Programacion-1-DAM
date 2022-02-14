@@ -1,4 +1,4 @@
-package ejemplo1;
+package ejemploherencia;
 
 public class Empleado extends Trabajador{
 	

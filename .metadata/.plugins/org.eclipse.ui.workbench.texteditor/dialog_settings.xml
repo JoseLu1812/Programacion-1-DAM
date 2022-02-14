@@ -6,13 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="lista"/>
+		<item key="selection" value="impuestoFijo"/>
 		<list key="findhistory">
+			<item value="impuesto"/>
 			<item value="listado"/>
 			<item value="GestionPlataforma"/>
 			<item value="numPlat"/>
 		</list>
 		<list key="replacehistory">
+			<item value="impuestoFijo"/>
 			<item value="lista"/>
 			<item value="numPlataforma"/>
 		</list>

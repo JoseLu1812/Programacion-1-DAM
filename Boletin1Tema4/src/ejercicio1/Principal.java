@@ -17,11 +17,9 @@ public class Principal {
 		System.out.println("Binvenido.");
 		
 		do {
-			System.out.println("1. Crear ordenador.");
-			System.out.println("2. Crear tablet.");
-			System.out.println("3. Crear portátil.");
-			System.out.println("4. Mostrar productos.");
-			System.out.println("5. Mostrar precio venta final productos.");
+			System.out.println("1. Crear ordenador y mostar.");
+			System.out.println("2. Crear tablet y mostrar.");
+			System.out.println("3. Crear portátil y mostar.");
 			System.out.println("0. Salir.");
 			num = Leer.datoInt();
 		
@@ -40,6 +38,8 @@ public class Principal {
 					precioBase = Leer.datoDouble();
 				
 					o = new Ordenador(capacidad,frecuencia,precioBase);
+					
+					System.out.println(o.calcularPrecioVenta());
 					break;
 				
 				case 2:	
@@ -59,6 +59,8 @@ public class Principal {
 					precioSeguro = Leer.datoDouble();
 					
 					t = new Tablet(capacidad,frecuencia,precioBase, precioSeguro);
+					
+					System.out.println(t.calcularPrecioVenta());
 					break;
 				
 					
@@ -80,18 +82,10 @@ public class Principal {
 					descuento = Leer.datoInt();
 					
 					p = new Portatil(capacidad,frecuencia,precioBase,descuento);
-					break;
 					
-				case 4:
+					System.out.println(p.calcularPrecioVenta());
 					break;
-				
-					
-				case 5:
-					System.out.println(o.calcularPrecioVenta());
-					System.out.println(t.calcularPrecioVenta());
-					System.out.println(p.calcularPrecioVenta(descuento));
-					break;
-					
+
 			}
 				
 		}while(num != 0);

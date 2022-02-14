@@ -10,5 +10,6 @@
     <fullyQualifiedTypeName name="lectura.Leer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="ejercicio4.Cliente"/>
+    <fullyQualifiedTypeName name="ejercicio4.Alimentacion"/>
     <fullyQualifiedTypeName name="utilidades.Leer"/>
 </qualifiedTypeNameHistroy>
